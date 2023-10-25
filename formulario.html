@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Subida de ficheros PHP</h1> 
+    <form  method="POST" enctype="multipart/form-data" action="http://localhost/ejerciciosPHP/Ejercicios4/subidaFicheros/guardar.php">
+    <p>El tamaño máximo de los ficheros no puede superar los 200 Kbytes cada uno y entre todos no mas de 300  Kbytes.</p>
+    <p>Los ficheros tienes que ser o JPG o PNG no se admiten otros formatos.</p>
+    <input type="file" name="image[]" multiple=""><br></br>
+    <input type="submit" value="Subir archivo">
+   </form>
+
+
+</body>
+</html>
+
+  
